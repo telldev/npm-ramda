@@ -10,7 +10,6 @@
   "repository": "https://github.com/types/npm-ramda",
   "homepage": "https://github.com/types/npm-ramda#readme",
   "scripts": {
-    "prepublish": "yarn run build",
     "lint": "tslint --project ./tsconfig.json",
     "lint-dts": "tslint -c ./templates/tslint.json \"templates/**/*.d.ts\"",
     "test": "jest --config ./jest.json",
@@ -29,7 +28,6 @@
     "@types/gulp-util": "3.0.34",
     "@types/jest": "22.0.1",
     "@types/node": "9.4.0",
-    "@types/ramda": "ikatyang/types-ramda#v0.24.1-dist",
     "@types/run-sequence": "0.0.30",
     "@types/through2": "2.0.33",
     "@types/yargs": "10.0.1",
